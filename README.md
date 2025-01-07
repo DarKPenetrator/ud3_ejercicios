@@ -52,7 +52,7 @@
 
 ## Ejercicio 8
 
-Se deberia añadir el siguiente codigo en el archivo de migration 
+Se deberia añadir el siguiente codigo en el archivo de migration 2025_01_07_212315_create_alumnos_table.php
 ```bash
 Schema::table('alumnos', function (Blueprint $table) {
     $table->string('apellido');
